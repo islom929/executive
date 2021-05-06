@@ -92,9 +92,29 @@ body {
 }
 
 .hero-social-media {
+  display: flex;
   padding-top: 102px;
+  align-items: center;
+  padding-bottom: 59px;
+  padding-left: 5px;
+}
+.facebook {
+  width: 12px;
+  height: 21px;
+
+}
+.twitter {
+  width: 21px;
+  height: 17px;
+  margin-left: 25px;
 }
 
+.instagram {
+  width: 22px;
+  height: 23px;
+  margin-left: 25px;
+
+}
 
 .universities{
   background-color: #FAFAFA;
@@ -114,7 +134,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
- 
+
 
 }
 
